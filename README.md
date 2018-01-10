@@ -1,5 +1,7 @@
 # debug_container
 
+![usage_debug_container](https://raw.githubusercontent.com/kakakikikeke/debug_container/master/img/usage_debug_container.gif)
+
 You can show the detail for container system info (hostname, cpu, memory etc..).  
 It can be fetched using http communication.
 
