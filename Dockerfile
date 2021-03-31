@@ -1,8 +1,11 @@
-FROM ruby
+FROM ruby:3
 
 ADD . /home
 WORKDIR /home
-RUN bundle install --path vendor
+
+RUN bundle update --bundler
+RUN bundle config path vendor
+RUN bundle install
 EXPOSE 4567
 
 CMD ["bundle", "exec", "ruby", "app.rb"]
