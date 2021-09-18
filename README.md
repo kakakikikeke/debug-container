@@ -1,19 +1,19 @@
-# debug_container
+# debug-container
 
-![usage_debug_container](https://raw.githubusercontent.com/kakakikikeke/debug_container/master/img/usage_debug_container.gif)
+![usage_debug-container](https://raw.githubusercontent.com/kakakikikeke/debug-container/master/img/usage_debug_container.gif)
 
 You can show the detail for container system info (hostname, cpu, memory etc..).  
 It can be fetched using http communication.
 
 # How to use
-* docker run -p 80:4567 kakakikikeke/debug_container
+* docker run -p 80:4567 kakakikikeke/debug-container
 * curl localhost | jq .
 
 if you set an environment variable of "HOSTNAME_ONLY" is true, returnd only container's hostname.
 
-* docker run -p 80:4567 -e HOSTNAME_ONLY=true kakakikikeke/debug_container
+* docker run -p 80:4567 -e HOSTNAME_ONLY=true kakakikikeke/debug-container
 
 # Build
-* git clone https://github.com/kakakikikeke/debug_container.git
-* docker build -t debug_container .
-* docker run -p 80:4567 debug_container
+* git clone https://github.com/kakakikikeke/debug-container.git
+* docker build -t debug-container .
+* docker run -p 80:4567 debug-container
