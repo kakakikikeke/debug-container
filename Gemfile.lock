@@ -73,7 +73,7 @@ GEM
       yard (~> 0.9.11)
     public_suffix (5.0.1)
     racc (1.6.2)
-    rack (2.2.6.3)
+    rack (2.2.6.4)
     rack-protection (3.0.5)
       rack
     rainbow (3.1.1)
@@ -81,7 +81,7 @@ GEM
     reverse_markdown (2.1.1)
       nokogiri
     rexml (3.2.5)
-    rubocop (1.48.0)
+    rubocop (1.48.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
