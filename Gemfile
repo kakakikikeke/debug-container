@@ -1,12 +1,13 @@
 # frozen_string_literal: true
-source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "thin"
-gem "sinatra-contrib"
-gem "ohai"
-gem "solargraph"
-gem "pry"
-gem "pry-doc"
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+gem 'ohai'
+gem 'pry'
+gem 'pry-doc'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'solargraph'
+gem 'thin'
