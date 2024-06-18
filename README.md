@@ -16,4 +16,4 @@ if you set an environment variable of "HOSTNAME_ONLY" is true, returnd only cont
 # Build
 * git clone https://github.com/kakakikikeke/debug-container.git
 * docker build -t kakakikikeke/debug-container .
-* docker run -p 80:4567 debug-container
+* docker run -p 80:4567 kakakikikeke/debug-container
