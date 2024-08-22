@@ -53,6 +53,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
+      racc (~> 1.4)
     ohai (18.1.18)
       chef-config (>= 14.12, < 19)
       chef-utils (>= 16.0, < 19)
@@ -88,7 +90,7 @@ GEM
     regexp_parser (2.9.2)
     reverse_markdown (2.1.1)
       nokogiri
-    rexml (3.3.4)
+    rexml (3.3.6)
       strscan
     rubocop (1.65.1)
       json (~> 2.3)
@@ -154,6 +156,7 @@ GEM
 PLATFORMS
   arm64-darwin-22
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   ohai
