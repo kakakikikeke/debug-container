@@ -5,6 +5,7 @@ require 'sinatra'
 require 'sinatra/json'
 
 set :bind, '0.0.0.0'
+set :host_authorization, { permitted_hosts: [] }
 
 get '/' do
   ohi = Ohai::System.new
