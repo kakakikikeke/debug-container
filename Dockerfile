@@ -3,9 +3,9 @@ FROM ruby:3.4.2-alpine3.20
 ADD . /home
 WORKDIR /home
 
-RUN apk add make gcc g++
+RUN apk add make gcc g++ musl-dev linux-headers
 
-RUN bundle update --bundler
+RUN gem install bundler
 RUN bundle config path vendor
 RUN bundle install
 EXPOSE 4567
