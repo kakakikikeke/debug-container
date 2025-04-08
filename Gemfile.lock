@@ -41,7 +41,7 @@ GEM
       tomlrb
     mixlib-log (3.2.3)
       ffi (>= 1.15.5)
-    mixlib-shellout (3.3.8)
+    mixlib-shellout (3.3.9)
       chef-utils
     multi_json (1.15.0)
     mustermann (3.0.3)
