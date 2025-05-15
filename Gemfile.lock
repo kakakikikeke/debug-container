@@ -22,6 +22,7 @@ GEM
     ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x86_64-darwin)
     ffi (1.17.2-x86_64-linux-gnu)
+    ffi (1.17.2-x86_64-linux-musl)
     ffi-yajl (2.6.0)
       libyajl2 (>= 1.2)
     fuzzyurl (0.9.0)
@@ -56,6 +57,8 @@ GEM
     nokogiri (1.18.8-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-musl)
       racc (~> 1.4)
     observer (0.1.2)
     ohai (19.0.3)
@@ -177,6 +180,7 @@ PLATFORMS
   arm64-darwin-24
   x86_64-darwin-20
   x86_64-linux
+  x86_64-linux-musl
 
 DEPENDENCIES
   ohai
