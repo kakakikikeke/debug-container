@@ -45,7 +45,7 @@ GEM
       ffi (>= 1.15.5)
     mixlib-shellout (3.3.9)
       chef-utils
-    multi_json (1.15.0)
+    multi_json (1.16.0)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     net-scp (4.1.0)
