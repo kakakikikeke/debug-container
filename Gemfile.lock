@@ -26,6 +26,7 @@ GEM
     ffi-yajl (2.6.0)
       libyajl2 (>= 1.2)
     fuzzyurl (0.9.0)
+    io-console (0.8.2)
     ipaddress (0.8.3)
     jaro_winkler (1.6.1)
     json (2.18.0)
@@ -45,7 +46,7 @@ GEM
       ffi (>= 1.15.5)
     mixlib-shellout (3.3.9)
       chef-utils
-    multi_json (1.18.0)
+    multi_json (1.19.1)
     mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
     net-scp (4.1.0)
@@ -81,9 +82,10 @@ GEM
       racc
     plist (3.7.2)
     prism (1.7.0)
-    pry (0.15.2)
+    pry (0.16.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
+      reline (>= 0.6.0)
     pry-doc (1.6.0)
       pry (~> 0.11)
       yard (~> 0.9.11)
@@ -107,6 +109,8 @@ GEM
     rbs (3.10.0)
       logger
     regexp_parser (2.11.3)
+    reline (0.6.3)
+      io-console (~> 0.5)
     reverse_markdown (3.0.1)
       nokogiri
     rexml (3.4.4)
