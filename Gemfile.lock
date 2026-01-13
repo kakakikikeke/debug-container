@@ -84,7 +84,7 @@ GEM
       ast (~> 2.4.1)
       racc
     plist (3.7.2)
-    prism (1.7.0)
+    prism (1.8.0)
     pry (0.16.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
