@@ -23,7 +23,7 @@ GEM
     ffi (1.17.3-x86_64-darwin)
     ffi (1.17.3-x86_64-linux-gnu)
     ffi (1.17.3-x86_64-linux-musl)
-    ffi-yajl (2.7.6)
+    ffi-yajl (2.7.7)
       libyajl2 (>= 2.1)
       yajl
     fuzzyurl (0.9.0)
