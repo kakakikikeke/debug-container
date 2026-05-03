@@ -48,7 +48,7 @@ GEM
       ffi (>= 1.15.5)
     mixlib-shellout (3.3.9)
       chef-utils
-    multi_json (1.20.1)
+    multi_json (1.21.0)
     mustermann (3.1.1)
     net-scp (4.1.0)
       net-ssh (>= 2.6.5, < 8.0.0)
