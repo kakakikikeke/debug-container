@@ -31,7 +31,7 @@ GEM
     io-console (0.8.2)
     ipaddress (0.8.3)
     jaro_winkler (1.7.0)
-    json (2.19.4)
+    json (2.19.5)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -48,7 +48,7 @@ GEM
       ffi (>= 1.15.5)
     mixlib-shellout (3.3.9)
       chef-utils
-    multi_json (1.21.0)
+    multi_json (1.21.1)
     mustermann (3.1.1)
     net-scp (4.1.0)
       net-ssh (>= 2.6.5, < 8.0.0)
