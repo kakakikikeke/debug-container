@@ -7,15 +7,15 @@ GEM
     backport (1.2.0)
     base64 (0.3.0)
     benchmark (0.5.0)
-    chef-config (19.2.110)
+    chef-config (19.3.15)
       addressable
-      chef-utils (= 19.2.110)
+      chef-utils (= 19.3.15)
       fuzzyurl
       mixlib-config (>= 2.2.12, < 4.0)
       mixlib-shellout (>= 2.0, < 4.0)
       racc
       tomlrb (>= 1.2, < 3.0)
-    chef-utils (19.2.110)
+    chef-utils (19.3.15)
       concurrent-ruby
     coderay (1.1.3)
     concurrent-ruby (1.3.6)
@@ -159,7 +159,7 @@ GEM
       rack-protection (= 4.2.1)
       sinatra (= 4.2.1)
       tilt (~> 2.0)
-    solargraph (0.59.1)
+    solargraph (0.59.2)
       ast (~> 2.4.3)
       backport (~> 1.2)
       benchmark (~> 0.4)
@@ -197,7 +197,7 @@ GEM
       unicode-emoji (~> 4.1)
     unicode-emoji (4.2.0)
     wmi-lite (1.0.7)
-    yard (0.9.43)
+    yard (0.9.44)
     yard-activesupport-concern (0.0.1)
       yard (>= 0.8)
     yard-solargraph (0.1.0)
