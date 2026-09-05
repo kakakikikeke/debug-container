@@ -10,4 +10,7 @@ RUN bundle config path vendor
 RUN bundle install
 EXPOSE 4567
 
+# Ohai requires root privileges to collect system information.
+# The application intentionally runs as root.
+# nosemgrep: dockerfile.security.missing-user.missing-user
 CMD ["bundle", "exec", "ruby", "app.rb"]
