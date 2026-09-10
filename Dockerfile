@@ -1,9 +1,9 @@
 FROM ruby:4.0.5-alpine3.23
 
-ADD . /home
+COPY . /home
 WORKDIR /home
 
-RUN apk add make gcc g++ musl-dev linux-headers yaml-dev
+RUN apk --no-cache add make gcc g++ musl-dev linux-headers yaml-dev
 
 RUN gem install bundler
 RUN bundle config path vendor
